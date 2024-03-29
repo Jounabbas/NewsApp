@@ -12,8 +12,7 @@ const Home = () => {
     <div className="container home">
       
        {
-        loading? 
-        <Spiner/>:
+       
         movies.map((e) => {
           const title=e.Title.substring(0,15);
          
